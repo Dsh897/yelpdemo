@@ -30,7 +30,8 @@
         width="230"
         height="230"
         frameborder="0" style="border:0"
-        src= "https://www.google.com/maps/embed/v1/place?key=AIzaSyCPWcKLskhflXwbEAYsO9pQ5rtzwUv1SVY&q=<%= @restaurant.address.parameterize %>&zoom=12" >
+        src= "https://www.google.com/maps/embed/v1/place?key=AIzaSyAxtGJyBi_agyGW8oJyBuReuJf6l9lvfsw
+        &q=<%= @restaurant.address.parameterize %>&zoom=12" >
       </iframe>
 
     <% if user_signed_in?  && current_user.admin? %>
